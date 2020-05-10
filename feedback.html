@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   
+    <nav>
+        <div class="upper-nav">
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="logo-upper">LOGO</div>
+            <ul class="nav-items ">
+                <li><a class="nav-item-u" href="aboutus.html">About Us</a></li>
+                <li><a class="nav-item-u" href="anchors.html">Anchor Profiles</a></li>
+                <li><a class="nav-item-u" href="brands.html">Online Adverstising</a></li>
+                <li><a class="nav-item-u" href="contactus.html">Contact Us</a></li>
+                <li><a class="nav-item-u" href="feedback.html">Feedback</a></li>
+            </ul>
+        </div>
+        <div class="lower-nav">
+            <div class="logo">LOGO</div>
+            <div class="lower-inner-nav">
+                <ul class="nav-items ">
+                    <li><a href="index.html" class="nav-item-l">Home</a></li>
+                    <li><a href="latestnews.html" class="nav-item-l">Latest</a></li>
+                    <li><a href="technology.html" class="nav-item-l">Technology</a></li>
+                    <li><a href="newsprogram.html" class="nav-item-l">Programs</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="page-heading">
+        <h1>Feedback</h1>
+    </div>
+
+    <div class="feedback-form-container">
+        <form id="feedbackForm">
+            <label for="firstname">First Name</label>
+            <input type="text" id="firstname" name="firstname" placeholder="First Name" class="form" required><br>
+            <label for="lastname">Last Name</label>
+            <input type="text" id="lastname" name="lastname" placeholder="Last Name" class="form" required><br>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Email" class="form" required><br>
+            <label for="contact">Contact</label>
+            <input type="text" id="contact" name="contact" placeholder="Contact" class="form" required><br>
+            <textarea name="message" id="message" cols="30" rows="10" class="form" placeholder="Write a message"></textarea>
+            <input type="submit" name="submit" value="Submit" class="theme-button submit-btn">
+        </form>
+
+        <div class="submit-confirm">
+            <div class="submit-confirm-overlay"></div>
+            <div class="submit-confirm-content">
+                <p>Thank You for the Feedback</p>
+            </div>
+            <div class="submit-confirm-close">
+                <p>X</p>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="upper-footer">
+            <ul class="social-icons">
+                <li><a href="" class="social-icon"></a></li>
+                <li><a href="" class="social-icon"></a></li>
+                <li><a href="" class="social-icon"></a></li>
+            </ul>
+        </div>
+        <div class="lower-footer">
+            <p>This is a University Project All right reserved to the student.</p>
+        </div>
+    </footer>
+    <script src="nav.js"></script>
+    <script src="ajax.js"></script>
+
+</body>
+</html>
